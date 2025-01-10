@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pycounts_yunz"
+version = "0.1.0"
+description = "A package to calculate the number of the words in a test file."
+authors = ["Yun Zhou"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
